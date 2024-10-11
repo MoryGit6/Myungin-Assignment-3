@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class EnemyMovement : MonoBehaviour
 {
     public Transform Player;
-    public Transform Enemy;
     private NavMeshAgent navMeshAgent;
     // Start is called before the first frame update
     void Start()

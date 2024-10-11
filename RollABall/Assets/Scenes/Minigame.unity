@@ -805,6 +805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 342159230}
+  Enemy: {fileID: 0}
 --- !u!195 &248145707
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1018,7 +1019,7 @@ Transform:
   m_GameObject: {fileID: 342159223}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: -7.11}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1708,7 +1709,7 @@ Transform:
   m_GameObject: {fileID: 607088405}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: -1.785}
+  m_LocalPosition: {x: 0.89, y: 0.5, z: -10.18}
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
